@@ -1,0 +1,6 @@
+framework module Pods_VIT_Faculty {
+  umbrella header "Pods-VIT Faculty-umbrella.h"
+
+  export *
+  module * { export * }
+}

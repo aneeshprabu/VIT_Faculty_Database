@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090412E6CC44FE52F5FDB247B2962FBA /* CSVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2295D1EAF9400C2C25D513D0D8AABE14 /* CSVError.swift */; };
+		15AEBF829AA2180B26D3CBCC7F50B979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		222EB73561647DE80452E3E328B32CD0 /* Legacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F44EC8E6B033BCB46CB453B7BB3368 /* Legacy.swift */; };
+		26F7AE9A6AA25C28C91F424B29CD8DEF /* CSVWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E6D37415F437039C15B608AD4D0D12 /* CSVWriter.swift */; };
+		31724F95E71C22A76000813D6E0E7524 /* CSV.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DE230A1ADD8AE3DCED0944B3CEB88D /* CSV.swift-dummy.m */; };
+		37C60E1632427700F648007E2BA76DA3 /* UnicodeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1307524DF0D651E59068AC7D41BBA /* UnicodeIterator.swift */; };
+		58A4F2AE9474EBF4B214462FA0821D27 /* Pods-VIT Faculty-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9FB00AD1A6BAE960AEB2CEAA480B5D /* Pods-VIT Faculty-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D277B67684E50872DEC45D7F7065659 /* CSV.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4954E40B2FDE01D435D9D694D43F310 /* CSV.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F7B04C65DE5CD0EABB2ADEAD137EAE9 /* BinaryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7592EF4444939CFF3DB7339894C435 /* BinaryReader.swift */; };
+		CB306DAEA07D0C44678869FC3A10BA68 /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A19C85D7EE9BD92FE594154545DCEAD /* Endian.swift */; };
+		D2BF6A771FFCE9E5FC0E16874D71B538 /* Pods-VIT Faculty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A9F63A1A88263DF7D2A055D64EF2A1 /* Pods-VIT Faculty-dummy.m */; };
+		D75D3F0257C4A1DEFB5B5AA5DA3C7522 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E4428EB6748DA102A5772764EE77970D /* CSVRowDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF3331EB28CEB2154BABB9CCD29AF20 /* CSVRowDecoder.swift */; };
+		F6CC069DB631A0BC6E663E0E2D0C0417 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33871579D85CFDFB61698BB6BE4C2D7 /* CSVReader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BB2C9D3C03AA1C2F383826397B9AAB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9617FEF749C2A4DEB177789B70E08C51;
+			remoteInfo = CSV.swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A26AFB50F065A6CB5D6282A40588F27 /* Pods-VIT Faculty-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIT Faculty-frameworks.sh"; sourceTree = "<group>"; };
+		0DF3331EB28CEB2154BABB9CCD29AF20 /* CSVRowDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVRowDecoder.swift; path = Sources/CSV/CSVRowDecoder.swift; sourceTree = "<group>"; };
+		2295D1EAF9400C2C25D513D0D8AABE14 /* CSVError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVError.swift; path = Sources/CSV/CSVError.swift; sourceTree = "<group>"; };
+		2480151D3FFE0B224FB7E1FACB4DE26D /* Pods_VIT_Faculty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIT_Faculty.framework; path = "Pods-VIT Faculty.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DE230A1ADD8AE3DCED0944B3CEB88D /* CSV.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSV.swift-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A9FB00AD1A6BAE960AEB2CEAA480B5D /* Pods-VIT Faculty-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIT Faculty-umbrella.h"; sourceTree = "<group>"; };
+		5BD1307524DF0D651E59068AC7D41BBA /* UnicodeIterator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnicodeIterator.swift; path = Sources/CSV/UnicodeIterator.swift; sourceTree = "<group>"; };
+		5F8A33DBCC2FA8FCF2DBBD751FC49122 /* Pods-VIT Faculty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIT Faculty.debug.xcconfig"; sourceTree = "<group>"; };
+		6A19C85D7EE9BD92FE594154545DCEAD /* Endian.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endian.swift; path = Sources/CSV/Endian.swift; sourceTree = "<group>"; };
+		90A9F63A1A88263DF7D2A055D64EF2A1 /* Pods-VIT Faculty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIT Faculty-dummy.m"; sourceTree = "<group>"; };
+		93B628A99031B479A1D4112A758B0C9E /* Pods-VIT Faculty-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIT Faculty-acknowledgements.markdown"; sourceTree = "<group>"; };
+		970E146467797A25CDAF79B4CDE61D34 /* Pods-VIT Faculty-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIT Faculty-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4F44EC8E6B033BCB46CB453B7BB3368 /* Legacy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Legacy.swift; path = Sources/CSV/Legacy.swift; sourceTree = "<group>"; };
+		A502623CB9FF52B7055E2DD1DEF1D2CF /* CSV.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSV.swift-prefix.pch"; sourceTree = "<group>"; };
+		B21280A0C781690ADB578CABDF9DFC8C /* CSV.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSV.swift.xcconfig; sourceTree = "<group>"; };
+		B901F286B94E314D11C709E0A4BFFC7A /* Pods-VIT Faculty-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIT Faculty-Info.plist"; sourceTree = "<group>"; };
+		BE5E1CE8769950763CFE5F9A16892E90 /* CSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CSV.framework; path = CSV.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C193711F603938D1E845E31A286C1553 /* CSV.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CSV.swift.modulemap; sourceTree = "<group>"; };
+		C6E6D37415F437039C15B608AD4D0D12 /* CSVWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVWriter.swift; path = Sources/CSV/CSVWriter.swift; sourceTree = "<group>"; };
+		C754A0373CC7C80EEEA51A9AA734F069 /* Pods-VIT Faculty.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VIT Faculty.modulemap"; sourceTree = "<group>"; };
+		CE7592EF4444939CFF3DB7339894C435 /* BinaryReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryReader.swift; path = Sources/CSV/BinaryReader.swift; sourceTree = "<group>"; };
+		E33871579D85CFDFB61698BB6BE4C2D7 /* CSVReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVReader.swift; path = Sources/CSV/CSVReader.swift; sourceTree = "<group>"; };
+		E8FFD5143FBA0BA8FAEBD3F259D651ED /* Pods-VIT Faculty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIT Faculty.release.xcconfig"; sourceTree = "<group>"; };
+		F4954E40B2FDE01D435D9D694D43F310 /* CSV.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSV.swift-umbrella.h"; sourceTree = "<group>"; };
+		FCDBA4AB420F3E949C0CA30E77740776 /* CSV.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CSV.swift-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94B55AFBE9C892DAB4B4F501111E8759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15AEBF829AA2180B26D3CBCC7F50B979 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E580EFC88DFBC8F1C71860BF78489CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75D3F0257C4A1DEFB5B5AA5DA3C7522 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46B30165F1564C91E8F83C220EC1FEBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE5E1CE8769950763CFE5F9A16892E90 /* CSV.framework */,
+				2480151D3FFE0B224FB7E1FACB4DE26D /* Pods_VIT_Faculty.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		556A7F4A1DA633230B71B3A89F1E2602 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1C8BCB871CFA0AFC99DE00886811F08 /* Pods-VIT Faculty */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		58732056964C2D816890179162BA432D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5E25F451EC45FFF0CA960EB5602B584 /* CSV.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3512EDC058D04AE1DD66A07B8674A08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C193711F603938D1E845E31A286C1553 /* CSV.swift.modulemap */,
+				B21280A0C781690ADB578CABDF9DFC8C /* CSV.swift.xcconfig */,
+				30DE230A1ADD8AE3DCED0944B3CEB88D /* CSV.swift-dummy.m */,
+				FCDBA4AB420F3E949C0CA30E77740776 /* CSV.swift-Info.plist */,
+				A502623CB9FF52B7055E2DD1DEF1D2CF /* CSV.swift-prefix.pch */,
+				F4954E40B2FDE01D435D9D694D43F310 /* CSV.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CSV.swift";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1C8BCB871CFA0AFC99DE00886811F08 /* Pods-VIT Faculty */ = {
+			isa = PBXGroup;
+			children = (
+				C754A0373CC7C80EEEA51A9AA734F069 /* Pods-VIT Faculty.modulemap */,
+				93B628A99031B479A1D4112A758B0C9E /* Pods-VIT Faculty-acknowledgements.markdown */,
+				970E146467797A25CDAF79B4CDE61D34 /* Pods-VIT Faculty-acknowledgements.plist */,
+				90A9F63A1A88263DF7D2A055D64EF2A1 /* Pods-VIT Faculty-dummy.m */,
+				0A26AFB50F065A6CB5D6282A40588F27 /* Pods-VIT Faculty-frameworks.sh */,
+				B901F286B94E314D11C709E0A4BFFC7A /* Pods-VIT Faculty-Info.plist */,
+				3A9FB00AD1A6BAE960AEB2CEAA480B5D /* Pods-VIT Faculty-umbrella.h */,
+				5F8A33DBCC2FA8FCF2DBBD751FC49122 /* Pods-VIT Faculty.debug.xcconfig */,
+				E8FFD5143FBA0BA8FAEBD3F259D651ED /* Pods-VIT Faculty.release.xcconfig */,
+			);
+			name = "Pods-VIT Faculty";
+			path = "Target Support Files/Pods-VIT Faculty";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				58732056964C2D816890179162BA432D /* Pods */,
+				46B30165F1564C91E8F83C220EC1FEBA /* Products */,
+				556A7F4A1DA633230B71B3A89F1E2602 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5E25F451EC45FFF0CA960EB5602B584 /* CSV.swift */ = {
+			isa = PBXGroup;
+			children = (
+				CE7592EF4444939CFF3DB7339894C435 /* BinaryReader.swift */,
+				2295D1EAF9400C2C25D513D0D8AABE14 /* CSVError.swift */,
+				E33871579D85CFDFB61698BB6BE4C2D7 /* CSVReader.swift */,
+				0DF3331EB28CEB2154BABB9CCD29AF20 /* CSVRowDecoder.swift */,
+				C6E6D37415F437039C15B608AD4D0D12 /* CSVWriter.swift */,
+				6A19C85D7EE9BD92FE594154545DCEAD /* Endian.swift */,
+				A4F44EC8E6B033BCB46CB453B7BB3368 /* Legacy.swift */,
+				5BD1307524DF0D651E59068AC7D41BBA /* UnicodeIterator.swift */,
+				B3512EDC058D04AE1DD66A07B8674A08 /* Support Files */,
+			);
+			name = CSV.swift;
+			path = CSV.swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		70F025361CF8DA0286949A43BB2E170E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A4F2AE9474EBF4B214462FA0821D27 /* Pods-VIT Faculty-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD858DC23658932864344284D1D7FAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D277B67684E50872DEC45D7F7065659 /* CSV.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9617FEF749C2A4DEB177789B70E08C51 /* CSV.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333D52041D98CABA333A68CAD8C47E4E /* Build configuration list for PBXNativeTarget "CSV.swift" */;
+			buildPhases = (
+				BCD858DC23658932864344284D1D7FAD /* Headers */,
+				0852BEB5BFB891346DB785B72BC7565D /* Sources */,
+				E580EFC88DFBC8F1C71860BF78489CF3 /* Frameworks */,
+				EF977F6D1B481C70E8BB082EC419E96E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSV.swift;
+			productName = CSV.swift;
+			productReference = BE5E1CE8769950763CFE5F9A16892E90 /* CSV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB8A38FB21BF6A999EBB764F6B3588B1 /* Pods-VIT Faculty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8261ABDD1388BE1C0C2C4F83A63C5289 /* Build configuration list for PBXNativeTarget "Pods-VIT Faculty" */;
+			buildPhases = (
+				70F025361CF8DA0286949A43BB2E170E /* Headers */,
+				FB8A9C9C01E3162A515FD5A476997894 /* Sources */,
+				94B55AFBE9C892DAB4B4F501111E8759 /* Frameworks */,
+				E02B626465823872EB6E4B559F3A9E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86D3D4852D4B17042446AA16545EFF8D /* PBXTargetDependency */,
+			);
+			name = "Pods-VIT Faculty";
+			productName = "Pods-VIT Faculty";
+			productReference = 2480151D3FFE0B224FB7E1FACB4DE26D /* Pods_VIT_Faculty.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 46B30165F1564C91E8F83C220EC1FEBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9617FEF749C2A4DEB177789B70E08C51 /* CSV.swift */,
+				BB8A38FB21BF6A999EBB764F6B3588B1 /* Pods-VIT Faculty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E02B626465823872EB6E4B559F3A9E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF977F6D1B481C70E8BB082EC419E96E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0852BEB5BFB891346DB785B72BC7565D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7B04C65DE5CD0EABB2ADEAD137EAE9 /* BinaryReader.swift in Sources */,
+				31724F95E71C22A76000813D6E0E7524 /* CSV.swift-dummy.m in Sources */,
+				090412E6CC44FE52F5FDB247B2962FBA /* CSVError.swift in Sources */,
+				F6CC069DB631A0BC6E663E0E2D0C0417 /* CSVReader.swift in Sources */,
+				E4428EB6748DA102A5772764EE77970D /* CSVRowDecoder.swift in Sources */,
+				26F7AE9A6AA25C28C91F424B29CD8DEF /* CSVWriter.swift in Sources */,
+				CB306DAEA07D0C44678869FC3A10BA68 /* Endian.swift in Sources */,
+				222EB73561647DE80452E3E328B32CD0 /* Legacy.swift in Sources */,
+				37C60E1632427700F648007E2BA76DA3 /* UnicodeIterator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8A9C9C01E3162A515FD5A476997894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BF6A771FFCE9E5FC0E16874D71B538 /* Pods-VIT Faculty-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86D3D4852D4B17042446AA16545EFF8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CSV.swift;
+			target = 9617FEF749C2A4DEB177789B70E08C51 /* CSV.swift */;
+			targetProxy = 1BB2C9D3C03AA1C2F383826397B9AAB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6CECC54C0619D59B0B492A8FCC5136C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FFD5143FBA0BA8FAEBD3F259D651ED /* Pods-VIT Faculty.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VIT Faculty/Pods-VIT Faculty-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VIT Faculty/Pods-VIT Faculty.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A145120C11EE51E835E56DBF6920AE71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F8A33DBCC2FA8FCF2DBBD751FC49122 /* Pods-VIT Faculty.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VIT Faculty/Pods-VIT Faculty-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VIT Faculty/Pods-VIT Faculty.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B740B02ECFBC5E4750E73F0B5C1284E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21280A0C781690ADB578CABDF9DFC8C /* CSV.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CSV.swift/CSV.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSV.swift/CSV.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CSV.swift/CSV.swift.modulemap";
+				PRODUCT_MODULE_NAME = CSV;
+				PRODUCT_NAME = CSV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C92C1EE46437958E3C315BAA52C82C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21280A0C781690ADB578CABDF9DFC8C /* CSV.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CSV.swift/CSV.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSV.swift/CSV.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CSV.swift/CSV.swift.modulemap";
+				PRODUCT_MODULE_NAME = CSV;
+				PRODUCT_NAME = CSV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		333D52041D98CABA333A68CAD8C47E4E /* Build configuration list for PBXNativeTarget "CSV.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92C1EE46437958E3C315BAA52C82C06 /* Debug */,
+				B740B02ECFBC5E4750E73F0B5C1284E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8261ABDD1388BE1C0C2C4F83A63C5289 /* Build configuration list for PBXNativeTarget "Pods-VIT Faculty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A145120C11EE51E835E56DBF6920AE71 /* Debug */,
+				6CECC54C0619D59B0B492A8FCC5136C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

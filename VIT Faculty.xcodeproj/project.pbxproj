@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88EE75253573DCD0BC6DB9C8 /* Pods_VIT_Faculty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7CC4A75FE2D6DB70AA01BD /* Pods_VIT_Faculty.framework */; };
+		A709FF8722F94FF9000DEFD7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A709FF8622F94FF9000DEFD7 /* DetailViewController.swift */; };
+		A709FF8922F96BC0000DEFD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A709FF8822F96BC0000DEFD7 /* Assets.xcassets */; };
 		A791BCF022F5F0A600140BBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A791BCEF22F5F0A600140BBE /* AppDelegate.swift */; };
-		A791BCF222F5F0A600140BBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A791BCF122F5F0A600140BBE /* SceneDelegate.swift */; };
 		A791BCF422F5F0A600140BBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A791BCF322F5F0A600140BBE /* ViewController.swift */; };
 		A791BCF722F5F0A600140BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A791BCF522F5F0A600140BBE /* Main.storyboard */; };
-		A791BCF922F5F0AB00140BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A791BCF822F5F0AB00140BBE /* Assets.xcassets */; };
 		A791BCFC22F5F0AB00140BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A791BCFA22F5F0AB00140BBE /* LaunchScreen.storyboard */; };
+		A791BD0522F5FD2500140BBE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A791BD0322F5FD2500140BBE /* TableViewController.swift */; };
+		A79A333522F600520003DBF6 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A333322F600520003DBF6 /* CustomCell.swift */; };
+		A79A333622F600520003DBF6 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A79A333422F600520003DBF6 /* CustomCell.xib */; };
+		A79A334422F6DE890003DBF6 /* Sheet1.plist in Resources */ = {isa = PBXBuildFile; fileRef = A79A334322F6DE890003DBF6 /* Sheet1.plist */; };
+		A79A334822F6DE9D0003DBF6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A334622F6DE9D0003DBF6 /* Data.swift */; };
+		A79A334922F6DE9D0003DBF6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A334722F6DE9D0003DBF6 /* DataManager.swift */; };
+		A7F8B52D22F8348400669BE2 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F8B52C22F8348400669BE2 /* SettingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		717634342AFC0A2D3A5CD33C /* Pods-VIT Faculty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIT Faculty.release.xcconfig"; path = "Target Support Files/Pods-VIT Faculty/Pods-VIT Faculty.release.xcconfig"; sourceTree = "<group>"; };
+		A709FF8622F94FF9000DEFD7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A709FF8822F96BC0000DEFD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A791BCEC22F5F0A600140BBE /* VIT Faculty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIT Faculty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A791BCEF22F5F0A600140BBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A791BCF122F5F0A600140BBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A791BCF322F5F0A600140BBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A791BCF622F5F0A600140BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A791BCF822F5F0AB00140BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A791BCFB22F5F0AB00140BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A791BCFD22F5F0AB00140BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A791BD0322F5FD2500140BBE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A79A333322F600520003DBF6 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		A79A333422F600520003DBF6 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		A79A334322F6DE890003DBF6 /* Sheet1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sheet1.plist; sourceTree = "<group>"; };
+		A79A334622F6DE9D0003DBF6 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		A79A334722F6DE9D0003DBF6 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A7F8B52C22F8348400669BE2 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		A985AEA52FB02E4903A5F8F8 /* Pods-VIT Faculty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIT Faculty.debug.xcconfig"; path = "Target Support Files/Pods-VIT Faculty/Pods-VIT Faculty.debug.xcconfig"; sourceTree = "<group>"; };
+		BE7CC4A75FE2D6DB70AA01BD /* Pods_VIT_Faculty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIT_Faculty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EE75253573DCD0BC6DB9C8 /* Pods_VIT_Faculty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31A3AC0F0EEE3D0D8AE085EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A985AEA52FB02E4903A5F8F8 /* Pods-VIT Faculty.debug.xcconfig */,
+				717634342AFC0A2D3A5CD33C /* Pods-VIT Faculty.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D1489EBA88A2E6BFC7A6859 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE7CC4A75FE2D6DB70AA01BD /* Pods_VIT_Faculty.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A791BCE322F5F0A600140BBE = {
 			isa = PBXGroup;
 			children = (
 				A791BCEE22F5F0A600140BBE /* VIT Faculty */,
 				A791BCED22F5F0A600140BBE /* Products */,
+				31A3AC0F0EEE3D0D8AE085EB /* Pods */,
+				6D1489EBA88A2E6BFC7A6859 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,62 @@
 		A791BCEE22F5F0A600140BBE /* VIT Faculty */ = {
 			isa = PBXGroup;
 			children = (
-				A791BCEF22F5F0A600140BBE /* AppDelegate.swift */,
-				A791BCF122F5F0A600140BBE /* SceneDelegate.swift */,
-				A791BCF322F5F0A600140BBE /* ViewController.swift */,
-				A791BCF522F5F0A600140BBE /* Main.storyboard */,
-				A791BCF822F5F0AB00140BBE /* Assets.xcassets */,
-				A791BCFA22F5F0AB00140BBE /* LaunchScreen.storyboard */,
+				A79A334522F6DE8F0003DBF6 /* DataHandler */,
 				A791BCFD22F5F0AB00140BBE /* Info.plist */,
+				A79A334322F6DE890003DBF6 /* Sheet1.plist */,
+				A791BCEF22F5F0A600140BBE /* AppDelegate.swift */,
+				A79A333722F600780003DBF6 /* Model */,
+				A79A333822F6007E0003DBF6 /* View */,
+				A79A333922F600830003DBF6 /* Controller */,
+				A79A333A22F6008A0003DBF6 /* SupportingFiles */,
 			);
 			path = "VIT Faculty";
+			sourceTree = "<group>";
+		};
+		A79A333722F600780003DBF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A79A333322F600520003DBF6 /* CustomCell.swift */,
+				A79A333422F600520003DBF6 /* CustomCell.xib */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A79A333822F6007E0003DBF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A791BCFA22F5F0AB00140BBE /* LaunchScreen.storyboard */,
+				A791BCF522F5F0A600140BBE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A79A333922F600830003DBF6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A791BCF322F5F0A600140BBE /* ViewController.swift */,
+				A791BD0322F5FD2500140BBE /* TableViewController.swift */,
+				A7F8B52C22F8348400669BE2 /* SettingsTableViewController.swift */,
+				A709FF8622F94FF9000DEFD7 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A79A333A22F6008A0003DBF6 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A709FF8822F96BC0000DEFD7 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A79A334522F6DE8F0003DBF6 /* DataHandler */ = {
+			isa = PBXGroup;
+			children = (
+				A79A334622F6DE9D0003DBF6 /* Data.swift */,
+				A79A334722F6DE9D0003DBF6 /* DataManager.swift */,
+			);
+			path = DataHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A791BD0022F5F0AB00140BBE /* Build configuration list for PBXNativeTarget "VIT Faculty" */;
 			buildPhases = (
+				449018C7852CA794978A04E1 /* [CP] Check Pods Manifest.lock */,
 				A791BCE822F5F0A600140BBE /* Sources */,
 				A791BCE922F5F0A600140BBE /* Frameworks */,
 				A791BCEA22F5F0A600140BBE /* Resources */,
+				932B1FB207697CF13DBC7A83 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +212,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A709FF8922F96BC0000DEFD7 /* Assets.xcassets in Resources */,
+				A79A334422F6DE890003DBF6 /* Sheet1.plist in Resources */,
 				A791BCFC22F5F0AB00140BBE /* LaunchScreen.storyboard in Resources */,
-				A791BCF922F5F0AB00140BBE /* Assets.xcassets in Resources */,
+				A79A333622F600520003DBF6 /* CustomCell.xib in Resources */,
 				A791BCF722F5F0A600140BBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		449018C7852CA794978A04E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIT Faculty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		932B1FB207697CF13DBC7A83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIT Faculty/Pods-VIT Faculty-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIT Faculty/Pods-VIT Faculty-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VIT Faculty/Pods-VIT Faculty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A791BCE822F5F0A600140BBE /* Sources */ = {
@@ -139,8 +270,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A791BCF422F5F0A600140BBE /* ViewController.swift in Sources */,
+				A79A334822F6DE9D0003DBF6 /* Data.swift in Sources */,
+				A791BD0522F5FD2500140BBE /* TableViewController.swift in Sources */,
+				A79A334922F6DE9D0003DBF6 /* DataManager.swift in Sources */,
+				A79A333522F600520003DBF6 /* CustomCell.swift in Sources */,
 				A791BCF022F5F0A600140BBE /* AppDelegate.swift in Sources */,
-				A791BCF222F5F0A600140BBE /* SceneDelegate.swift in Sources */,
+				A7F8B52D22F8348400669BE2 /* SettingsTableViewController.swift in Sources */,
+				A709FF8722F94FF9000DEFD7 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +418,13 @@
 		};
 		A791BD0122F5F0AB00140BBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A985AEA52FB02E4903A5F8F8 /* Pods-VIT Faculty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N29A2CP236;
 				INFOPLIST_FILE = "VIT Faculty/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +432,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aneeshprabu.VIT-Faculty";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A791BD0222F5F0AB00140BBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717634342AFC0A2D3A5CD33C /* Pods-VIT Faculty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N29A2CP236;
 				INFOPLIST_FILE = "VIT Faculty/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aneeshprabu.VIT-Faculty";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
